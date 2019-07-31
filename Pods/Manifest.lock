@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (4.2.0)
+  - Swifter (1.4.7)
+
+DEPENDENCIES:
+  - SnapKit (~> 4.0)
+  - Swifter (~> 1.4.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SnapKit
+    - Swifter
+
+SPEC CHECKSUMS:
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Swifter: 2327ef5d872c638aebab79646ce494af508b0c8f
+
+PODFILE CHECKSUM: 33d9d0f4fed5e9f0862bda7567459eca3afaee0f
+
+COCOAPODS: 1.6.0.beta.2
