@@ -18,6 +18,6 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         mainCoordinator.start()
         viewControllers = [fsc.navigationController, ssc.navigationController]
-        self.view.backgroundColor = .red
+        view.backgroundColor = .red
     }
 }

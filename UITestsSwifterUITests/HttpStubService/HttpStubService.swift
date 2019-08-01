@@ -26,7 +26,7 @@ class HttpStubService {
         server.stop()
     }
     
-    func setupStubs() {
+    private func setupStubs() {
         for stub in initialStubs {
             setupStub(url: stub.url, filename: stub.jsonFilename, method: stub.method)
         }

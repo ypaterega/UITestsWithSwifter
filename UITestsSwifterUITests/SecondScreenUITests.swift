@@ -76,7 +76,6 @@ class SecondScreenUITests: XCTestCase {
         
         let cellsCountAfterReload = tableViewQuery.cells.count
         XCTAssertEqual(cellsCountAfterReload, 3, "Cells count should be equal to json data")
-        
     }
     
 }

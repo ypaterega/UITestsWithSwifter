@@ -32,7 +32,7 @@ class FirstScreenPresenter {
         }
     }
     
-    func updateView(response: NewReleasesResponseModel) {
+    private func updateView(response: NewReleasesResponseModel) {
         var model = FirstScreenViewController.ViewModel()
         
         guard let book = response.books.first, !response.books.isEmpty else {

@@ -27,8 +27,6 @@ class FirstScreenUITests: XCTestCase {
         stubs.setUp()
 
         let app = XCUIApplication()
-        //for active compilation condition
-        //app.launchArguments = ["TEST"]
         app.launch()
     }
 

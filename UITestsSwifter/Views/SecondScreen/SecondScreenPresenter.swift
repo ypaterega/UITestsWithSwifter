@@ -34,7 +34,7 @@ class SecondScreenPresenter {
         }
     }
 
-    func updateView(response: NewReleasesResponseModel) {
+   private func updateView(response: NewReleasesResponseModel) {
         var model = SecondScreenViewController.ViewModel()
 
         response.books.forEach { book in
